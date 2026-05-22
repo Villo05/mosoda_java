@@ -41,6 +41,7 @@ public class Mosoda {
     }
 
     public List<Ruha> getRuhak() {
+        
         return ruhak;
     }
 
