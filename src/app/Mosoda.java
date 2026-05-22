@@ -44,6 +44,11 @@ public class Mosoda {
     public List<Ruha> getRuhak() {
         /* ez így setter*/
         //return ruhak;
+        
+        /* új visszaadása*/
+        //return new ArrayList<>(ruhak);
+        
+        /* nem módosítható listát adunk vissza*/
         return Collections.unmodifiableList(ruhak);
     }
 
