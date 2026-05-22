@@ -2,6 +2,7 @@
 package app;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Mosoda {
@@ -41,8 +42,9 @@ public class Mosoda {
     }
 
     public List<Ruha> getRuhak() {
-        
-        return ruhak;
+        /* ez így setter*/
+        //return ruhak;
+        return Collections.unmodifiableList(ruhak);
     }
 
     @Override
